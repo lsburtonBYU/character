@@ -17,7 +17,7 @@
 
 class Character {
   static img;
-  static defaultImgSrc = "./character/assets/dog-sprites.png";
+  static defaultImgSrc = "./assets/dog-sprites.png";
   static width = 200;
   static height = 176;
   static actions = createEnum(["fall", "idle", "jump", "run", "slide", "walk"]);
